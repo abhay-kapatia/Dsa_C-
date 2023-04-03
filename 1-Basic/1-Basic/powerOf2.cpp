@@ -19,3 +19,5 @@ int main()
     cout<<"false"<<endl;
     return false;
 }
+
+//set bit is equal to 1
