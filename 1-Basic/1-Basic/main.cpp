@@ -1,6 +1,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
+//BINARY TO DECIMAL
 int main(){
     int n,i=0,ans=0;
     cin>>n;

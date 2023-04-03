@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//COUNTING NO. OF NOTES
 int main()
 {
     int n,c=0;

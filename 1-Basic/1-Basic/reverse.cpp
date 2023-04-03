@@ -1,6 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+//REVERSE OF A NO.(LEET)
 int main()
 {
     int n,ans=0;
@@ -12,7 +13,6 @@ int main()
         }
         ans =( ans*10)+digit;
         n= n/10;
-
     }
     cout<<ans<<endl;
     return 0;

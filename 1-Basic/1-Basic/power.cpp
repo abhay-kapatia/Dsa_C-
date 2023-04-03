@@ -2,6 +2,7 @@
 using namespace std;
 
 //function implementation
+//A^B
 int power(){
     int a,b;
     cin>>a>>b;
