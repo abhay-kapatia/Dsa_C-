@@ -3,19 +3,18 @@
 #include <vector>
 using namespace std;
 
-bool uniqueOccurrences(vector<int>& arr) {
+bool uniqueOccurrences(int arr[]) {
     unordered_map<int,int>mp,mp2;
-    for(auto it:arr)  mp[it]++;
-    for (auto it:mp)   mp2[it.second]++;
-    for(auto it:mp2) if(it.second>1) return false;
+    for(int i=0;i<6;i++)  mp[arr[i]]++;
+    for (auto i : mp)   mp2[i.second]++;
+    for(auto i : mp2) if(i.second>1) return false;
     return true;
 }
 
 int main()
 {
     int arr[]={1,2,2,1,1,3};
-    vector<int> v(arr, arr + sizeof(arr) / sizeof(arr[0]));
-    cout << uniqueOccurrences(v);
+    cout << uniqueOccurrences(arr);
     return 0;
 }
 
