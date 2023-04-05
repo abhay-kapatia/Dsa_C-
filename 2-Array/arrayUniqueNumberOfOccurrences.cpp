@@ -1,6 +1,6 @@
 #include<iostream>
 #include<unordered_map>
-#include <vector>
+
 using namespace std;
 
 bool uniqueOccurrences(int arr[]) {
